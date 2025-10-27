@@ -77,3 +77,57 @@ A clean, organized FastAPI service that performs semantic searches to a Milvus D
 │   └── test.py
 └── uv.lock
 ```
+
+## Script to feed data dictionaries to vectorDB
+
+- `script/table_data_feeder.py`
+
+The idea is to convert the data from the JSON file (retrieved from GCS) from :
+
+```python
+{
+   'column_name': 'Type',
+   'column_type': 'string',
+   'description': 'Type of order',
+   'examples': ['Normal', 'Drop-Ship'],
+   'number_of_rows': 16091,
+   'null_rows': 0,
+   'distinct_rows': 2
+}
+```
+
+to text :
+```
+name: OrderNbr
+type: string
+description: Order number
+number_of_rows: 16091
+examples: PO0003954,PO0003953,PO0003952
+null_rows: 0
+distinct_rows: 4517
+from table: group_iii.silver.group_iii_purchase_xlsx_g_3_p_order
+```
+
+This text is then encoded to a vectorDB using `openai "text-embedding-3-small"` embedding model, which has a dimension of 1536
+
+The script shows how to:
+1. to retrieve data dictionaries from GCS
+2. format each column for all tables
+    - this results in 20651 
+3. Create a `Milvus` Collection with 3 fields:
+    - `id`: use as `PK`
+    - `text`: see text above
+    - `embbedings`: the embedded text, i.e a 1536 array
+4. add an index to the `embeddings` fields for fast retrieval. We use `COSINE` for semantic search
+
+```py
+index_params.add_index(
+        field_name="embeddings",
+        metric_type="COSINE",
+        index_type="IVF_FLAT",
+        index_name="vector_index",
+        params={"nlist": 128},
+    )
+```
+5. insert, flush, load the collection
+6. test a semantic search
