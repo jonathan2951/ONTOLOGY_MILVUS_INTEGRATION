@@ -86,25 +86,34 @@ The idea is to convert the data from the JSON file (retrieved from GCS) from :
 
 ```python
 {
-   'column_name': 'Type',
-   'column_type': 'string',
-   'description': 'Type of order',
-   'examples': ['Normal', 'Drop-Ship'],
-   'number_of_rows': 16091,
-   'null_rows': 0,
-   'distinct_rows': 2
+    'catalog': 'group_iii',
+    'schema': 'silver',
+    'table': 'group_iii_purchase_xlsx_g_3_p_order',
+    'total_row_count': 16091,
+    'columns':
+    [
+        {
+        'column_name': 'Type',
+        'column_type': 'string',
+        'description': 'Type of order',
+        'examples': ['Normal', 'Drop-Ship'],
+        'number_of_rows': 16091,
+        'null_rows': 0,
+        'distinct_rows': 2
+        }
+    ]
 }
 ```
 
 to text :
 ```
-name: OrderNbr
+name: Type
 type: string
-description: Order number
+description: Type of order
 number_of_rows: 16091
-examples: PO0003954,PO0003953,PO0003952
+examples: Normal,Drop-Ship
 null_rows: 0
-distinct_rows: 4517
+distinct_rows: 2
 from table: group_iii.silver.group_iii_purchase_xlsx_g_3_p_order
 ```
 
