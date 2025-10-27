@@ -1,0 +1,33 @@
+apiVersion: v1
+kind: Service
+metadata:
+  namespace: {{ .Release.Namespace }}
+  name: {{ include "ontology-api.fullname" . }}
+  labels:
+    {{- include "ontology-api.labels" . | nindent 4 }}
+spec:
+  type: {{ .Values.service.type }}
+  ports:
+    - port: {{ .Values.service.port }}
+      targetPort: http
+      protocol: TCP
+      name: http
+  selector:
+    {{- include "ontology-api.selectorLabels" . | nindent 4 }}
+---
+apiVersion: v1
+kind: Service
+metadata:
+  namespace: {{ .Release.Namespace }}
+  name: {{ include "ontology-api.fullname" . }}-ui
+  labels:
+    {{- include "ontology-api.labels" . | nindent 4 }}-ui
+spec:
+  type: {{ .Values.service.type }}
+  ports:
+    - port: {{ .Values.service.port }}
+      targetPort: {{ .Values.service.streamlitTargetPort }}
+      protocol: TCP
+      name: streamlit
+  selector:
+    {{- include "ontology-api.selectorLabels" . | nindent 4 }}-ui

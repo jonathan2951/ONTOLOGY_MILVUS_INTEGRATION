@@ -1,0 +1,56 @@
+replicaCount: 1
+namespace: data-platform
+
+image:
+  repository: us-west1-docker.pkg.dev/invisible-data-platform/data-platform-registry/ontology-generation-api
+  tag: latest
+  pullPolicy: Always
+
+resources:
+  limits:
+    cpu: 1000m
+    memory: 2G
+  requests:
+    cpu: 200m
+    memory: 512Mi
+
+env:
+  # API Configuration
+  HOST: "0.0.0.0"
+  PORT: "8000"
+  
+  # Databricks Configuration (set via environment variables)
+  MONGODB_DBNAME: "ontoai"
+  MONGODB_COLNAME: "ontologies"
+  OPENAI_MODEL_LARGE: "gpt-4o"
+  OPENAI_MODEL_SMALL: "gpt-4o-mini"
+  OPENAI_MODEL_NANO: "gpt-5-nano"
+  OPENAI_BASE_URL: "http://litellm-web-ilb.data-platform-observability.svc.cluster.local"
+  
+  # Observability Configuration
+  LOG_LEVEL: "ERROR"
+  BACKEND_URL: "http://ontology-generation-api-ontology-api.data-platform-orchestrator.svc.cluster.local"
+
+# Secrets configuration
+secrets:
+  - name: openai-credentials
+    keys:
+      - OPENAI_API_KEY
+  - name: langfuse-secret
+    keys:
+      - LANGFUSE_HOST
+      - LANGFUSE_PUBLIC_KEY
+      - LANGFUSE_SECRET_KEY
+  - name: mongodb-atlas-inv-secrets
+    keys:
+      - MONGODB_URL
+  - name: databricks-credentials
+    keys:
+      - DATABRICKS_TOKEN
+
+# Service configuration
+service:
+  type: ClusterIP
+  port: 80
+  targetPort: 8000
+  streamlitTargetPort: 8501
