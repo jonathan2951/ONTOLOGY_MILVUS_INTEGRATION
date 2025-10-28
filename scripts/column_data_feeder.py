@@ -75,8 +75,9 @@ def download_all_files_from_bucket(bucket_name: str, folder_prefix: str) -> list
     return blobs
 
 
-def make_table_context(inputs: list[dict]) -> list[str]:
-    """format table data
+def make_column_context(inputs: list[dict]) -> list[str]:
+    """parse data dictionaries and format column data
+
     Args:
         inputs (list[dict]): _description_
 
@@ -85,14 +86,21 @@ def make_table_context(inputs: list[dict]) -> list[str]:
     """
     res = []
     for datadict in inputs:
-        ctx = ""
-        table_name = f"{datadict['catalog']}.{datadict['schema']}.{datadict['table']}"
-        table_description = f"{datadict['description']}"
-        table_analysis = f"{','.join([x for x in datadict['table_analysis']])}"
-        ctx = f"table name:{table_name}\ntable description: {table_description}\ntable analysis:{table_analysis}\n"
-        cols = ",".join([x.get("column_name") for x in datadict.get("columns")])
-        ctx += f"columns available:{cols}"
-        res.append(ctx)
+        for col in datadict.get("columns"):
+            examples = col.get("examples")
+            vals = ",".join([str(x) if x is not None else "None" for x in examples])
+            ctx: str = ""
+            ctx += f"""
+            name: {col["column_name"]}
+            type: {col["column_type"]}
+            description: {col["description"]}
+            number_of_rows: {col["number_of_rows"]}
+            examples: {vals}
+            null_rows: {col["null_rows"]}
+            distinct_rows: {col["distinct_rows"]}
+            from table: {datadict["catalog"]}.{datadict["schema"]}.{datadict["table"]}
+            """
+            res.append(ctx)
     return res
 
 
@@ -106,7 +114,7 @@ if __name__ == "__main__":
     )
     print("All files downloaded successfully!")
 
-    data_to_embed = make_table_context(inputs=inputs["data"])
+    data_to_embed = make_column_context(inputs=inputs["data"])
 
     # convert to vector embeddings
     embeddings = [get_embedding(data) for data in data_to_embed]
@@ -120,7 +128,7 @@ if __name__ == "__main__":
     except Exception as e:
         print(f"Failed to connect to Milvus or retrieve collections: {e}")
 
-    collection_name = "data_dictionary_tables"
+    collection_name = "data_dictionary_columns"
 
     # 1. create schema
     schema = MilvusClient.create_schema(
@@ -136,9 +144,7 @@ if __name__ == "__main__":
     schema.add_field(
         field_name="embeddings", datatype=DataType.FLOAT_VECTOR, dim=1536
     )  # should be the same dimension of the embedding model
-    schema.add_field(
-        field_name="text", datatype=DataType.VARCHAR, max_length=8192
-    )  # max length of a single table formatted text is ~5000 chars
+    schema.add_field(field_name="text", datatype=DataType.VARCHAR, max_length=65535)
 
     # 3. Create collection
     client.create_collection(
