@@ -207,6 +207,7 @@ if __name__ == "__main__":
         data=query_vector,
         search_params=search_params,  # Search parameters
         limit=top_k,
+        anns_field="embeddings",
         output_fields=["text"],  # only return the text, not the whole vector embeddings
     )
 
