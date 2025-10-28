@@ -53,6 +53,10 @@ A clean, organized FastAPI service that performs semantic searches to a Milvus D
 │       └── values.yaml
 ├── pyproject.toml
 ├── README.md
+├── scripts
+│   ├── __init__.py
+│   ├── column_data_feeder.py
+│   └── table_data_feeder.py
 ├── src
 │   ├── api
 │   │   ├── __init__.py
