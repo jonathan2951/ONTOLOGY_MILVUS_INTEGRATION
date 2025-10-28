@@ -34,8 +34,6 @@ async def search_doc(query: str, top_k: int, nprobe: int):
         output_fields=["text"],
     )
 
-    # print(f"{res=}")
-
     print(res[0])
 
     return res[0]
