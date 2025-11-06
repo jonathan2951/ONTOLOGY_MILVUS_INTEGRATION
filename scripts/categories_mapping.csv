@@ -1,0 +1,761 @@
+table_name,consolidated_category
+albarcode,Application Logic & UI
+albarcodeoption,Application Logic & UI
+alcategory,Application Logic & UI
+alcontent,Application Logic & UI
+alcontentelement,Application Logic & UI
+aldataelement,Application Logic & UI
+aldatasource,Application Logic & UI
+alfont,Application Logic & UI
+alformat,Application Logic & UI
+aljustification,Application Logic & UI
+almargin,Application Logic & UI
+almodel,Application Logic & UI
+almodelexpr,Application Logic & UI
+almodelgraphic,Application Logic & UI
+almodelprinter,Application Logic & UI
+alprinter,Application Logic & UI
+alprintjob,Application Logic & UI
+alprintlog,Application Logic & UI
+alprintstation,Application Logic & UI
+alrule,Application Logic & UI
+alruledetail,Application Logic & UI
+alsequence,Application Logic & UI
+alsetup,Application Logic & UI
+alsetuppro,Application Logic & UI
+alstandard,Application Logic & UI
+alstandardidentifier,Application Logic & UI
+alsubstitution,Application Logic & UI
+alsubstitutiondetail,Application Logic & UI
+altradecompany,Application Logic & UI
+ap1099box,Billing & Payments
+ap1099history,Billing & Payments
+ap1099year,Billing & Payments
+apaddress,Billing & Payments
+apadjust,Billing & Payments
+apcontact,Billing & Payments
+aphistory,Billing & Payments
+apinvoice,Billing & Payments
+apinvoicediscountdetail,Billing & Payments
+appayment,Billing & Payments
+apprestartrequest,Billing & Payments
+apprintcheckdetail,Billing & Payments
+appschema,Billing & Payments
+apregister,Billing & Payments
+apsetup,Billing & Payments
+apsetupapproval,Billing & Payments
+aptax,Billing & Payments
+aptran,Billing & Payments
+aptranpost,Billing & Payments
+apvendorprice,Billing & Payments
+apvendorrefnbr,Billing & Payments
+araddress,Billing & Payments
+aradjust,Billing & Payments
+arbalances,Billing & Payments
+arcontact,Billing & Payments
+ardiscount,Billing & Payments
+arhistory,Billing & Payments
+arinvoice,Billing & Payments
+arinvoicediscountdetail,Billing & Payments
+arinvoicenbr,Billing & Payments
+arpayment,Billing & Payments
+arpaymentchargetran,Billing & Payments
+arpaymenttotals,Billing & Payments
+arpriceclass,Billing & Payments
+arpriceworksheet,Billing & Payments
+arpriceworksheetdetail,Billing & Payments
+arregister,Billing & Payments
+arsalespertran,Billing & Payments
+arsalesprice,Billing & Payments
+arsetup,Billing & Payments
+arsetupapproval,Billing & Payments
+arstatement,Billing & Payments
+arstatementcycle,Billing & Payments
+arstatementdetail,Billing & Payments
+artax,Billing & Payments
+artran,Billing & Payments
+artranpost,Billing & Payments
+auauditfield,Process Management
+auauditsetup,Process Management
+auaudittable,Process Management
+audithistory,Process Management
+auschedule,Process Management
+auscheduleexecution,Process Management
+auschedulefill,Process Management
+auschedulefilter,Process Management
+auschedulehistory,Process Management
+auschedulehost,Process Management
+auscreenactionbasestate,Process Management
+auscreenactionstate,Process Management
+auscreenfieldstate,Process Management
+auscreennavigationactionstate,Process Management
+auscreennavigationparameterstate,Process Management
+autemplate,Process Management
+autemplatedata,Process Management
+auworkflowcategory,Process Management
+auworkflowdefinition,Process Management
+auworkflowstate,Process Management
+auworkflowstateproperty,Process Management
+bcbinding,IT
+bcbindingext,IT
+bcbindingshopify,IT
+bcdefaultpaymentmapping,IT
+bcdefaultshippingmapping,IT
+bcentity,IT
+bcentityexportfilter,IT
+bcentityexportmapping,IT
+bcentityimportfilter,IT
+bcentityimportmapping,IT
+bcentitystats,IT
+bcfeemapping,IT
+bclocations,IT
+bcpaymentmethods,IT
+bcshippingmappings,IT
+bcsyncdetail,IT
+bcsyncstatus,IT
+bpevent,Process Management
+bpeventhistory,Process Management
+bpeventschedule,Process Management
+bpeventsetting,Process Management
+bpeventsubscriber,Process Management
+bpeventtrackingfield,Process Management
+bpeventtriggercondition,Process Management
+bpprocessedeventsubscribers,Process Management
+caadj,Finance & Accounting
+cabanktranheader,Finance & Accounting
+cabanktranrule,Finance & Accounting
+cabatch,Finance & Accounting
+cabatchdetail,Finance & Accounting
+cacheversion,Finance & Accounting
+cadailysummary,Finance & Accounting
+caentrytype,Finance & Accounting
+carecon,Finance & Accounting
+carrier,Finance & Accounting
+carrierlabelhistory,Finance & Accounting
+carrierpackage,Finance & Accounting
+carrierplugin,Finance & Accounting
+carrierplugincustomer,Finance & Accounting
+carrierplugindetail,Finance & Accounting
+casetup,Finance & Accounting
+cashaccount,Finance & Accounting
+cashaccountcheck,Finance & Accounting
+cashaccountetdetail,Finance & Accounting
+cashaccountpaymentmethoddetail,Finance & Accounting
+casplit,Finance & Accounting
+catran,Finance & Accounting
+catransfer,Finance & Accounting
+ccprocessingcenter,Billing & Payments
+ccprocessingcenterdetail,Billing & Payments
+ccprocessingcenterfeetype,Billing & Payments
+ccprocessingcenterpmntmethod,Billing & Payments
+ccproctran,Billing & Payments
+cractivity,Marketing
+cractivitystatistics,Marketing
+craddress,Marketing
+crcampaigntype,Marketing
+crcaseclass,Marketing
+crclassseveritytime,Marketing
+crcontact,Marketing
+crcontactclass,Marketing
+crcustomerclass,Marketing
+crleadclass,Marketing
+cropportunity,Marketing
+cropportunityclass,Marketing
+cropportunityclassprobability,Marketing
+cropportunityprobability,Marketing
+cropportunityproducts,Marketing
+cropportunityrevision,Marketing
+crrelation,Marketing
+crreminder,Marketing
+crsetup,Marketing
+crvalidation,Marketing
+crvalidationrules,Marketing
+csanswers,Marketing
+csattribute,Marketing
+csattributedetail,Marketing
+csattributegroup,Marketing
+csbox,Marketing
+cscalendar,Marketing
+csscreenattribute,Marketing
+drawinglogdiscipline,Reporting & Analytics
+drawinglogstatus,Reporting & Analytics
+drdeferredcode,Reporting & Analytics
+dropshiplink,Reporting & Analytics
+epactivitytype,HR & Employee Management
+epactivitytypekvext,HR & Employee Management
+epapproval,HR & Employee Management
+epassignmentmap,HR & Employee Management
+epattendee,HR & Employee Management
+epcompanytree,HR & Employee Management
+epcompanytreeh,HR & Employee Management
+epcompanytreemember,HR & Employee Management
+epdepartment,HR & Employee Management
+epearningtype,HR & Employee Management
+epemployee,HR & Employee Management
+epemployeeclass,HR & Employee Management
+epemployeeposition,HR & Employee Management
+epeventcategory,HR & Employee Management
+eplogintype,HR & Employee Management
+eplogintypeallowsrole,HR & Employee Management
+epposition,HR & Employee Management
+eprule,HR & Employee Management
+eprulecondition,HR & Employee Management
+epsetup,HR & Employee Management
+epview,HR & Employee Management
+fsappointmentstatuscolor,Finance & Accounting
+fscalendarcomponentfield,Finance & Accounting
+fsgpstrackinghistory,Finance & Accounting
+fsgpstrackingrequest,Finance & Accounting
+fsxuserpreferences,Finance & Accounting
+gidesign,Application Logic & UI
+gifilter,Application Logic & UI
+gifilterkvext,Application Logic & UI
+gigroupby,Application Logic & UI
+gimassaction,Application Logic & UI
+gimassupdatefield,Application Logic & UI
+ginavigationcondition,Application Logic & UI
+ginavigationparameter,Application Logic & UI
+ginavigationscreen,Application Logic & UI
+gion,Application Logic & UI
+girecorddefault,Application Logic & UI
+girelation,Application Logic & UI
+giresult,Application Logic & UI
+giresultkvext,Application Logic & UI
+gisort,Application Logic & UI
+gitable,Application Logic & UI
+giwhere,Application Logic & UI
+glallocation,Finance & Accounting
+glallocationdestination,Finance & Accounting
+glallocationsource,Finance & Accounting
+glbudget,Finance & Accounting
+glbudgetline,Finance & Accounting
+glbudgetlinedetail,Finance & Accounting
+glbudgettree,Finance & Accounting
+glconsolaccount,Finance & Accounting
+glconsolbatch,Finance & Accounting
+glconsolbranch,Finance & Accounting
+glconsolhistory,Finance & Accounting
+glconsolledger,Finance & Accounting
+glconsolsetup,Finance & Accounting
+glhistory,Finance & Accounting
+glsetup,Finance & Accounting
+gltran,Finance & Accounting
+gltrancode,Finance & Accounting
+igcmcontainerdestination,IT
+igcmcontainertype,IT
+igcmcustomclassification,IT
+igcmlandedcostallocation,IT
+igcmlogisticsservice,IT
+igcmpocontainerstatus,IT
+igcmpolandedcost,IT
+igcmpolandedcostline,IT
+igcmpolandedcostlinesplit,IT
+igcmpolcdetail,IT
+igcmpoorderlandedcost,IT
+igcmsearateeventsinfo,IT
+igcmsearateinfo,IT
+igcmsetup,IT
+igcmtariff,IT
+inabccode,Procurement & Inventory
+inavailabilityscheme,Procurement & Inventory
+incategory,Procurement & Inventory
+incostsite,Procurement & Inventory
+incoststatus,Procurement & Inventory
+incostsubitemxref,Procurement & Inventory
+initembox,Procurement & Inventory
+initemcategory,Sales
+initemclass,Procurement & Inventory
+initemclasscurysettings,Procurement & Inventory
+initemclassrep,Procurement & Inventory
+initemcost,Procurement & Inventory
+initemcosthist,Procurement & Inventory
+initemcustsaleshist,Procurement & Inventory
+initemcustsalesstats,Procurement & Inventory
+initemplan,Procurement & Inventory
+initemrep,Procurement & Inventory
+initemsaleshist,Procurement & Inventory
+initemsaleshistd,Procurement & Inventory
+initemsite,Procurement & Inventory
+initemsitehist,Procurement & Inventory
+initemsitehistbycostcenterd,Procurement & Inventory
+initemsitehistd,Procurement & Inventory
+initemsitehistday,Procurement & Inventory
+initemstats,Procurement & Inventory
+initemxref,Procurement & Inventory
+inkitspechdr,Procurement & Inventory
+inkitspecstkdet,Procurement & Inventory
+inlocation,Procurement & Inventory
+inlocationstatus,Procurement & Inventory
+inlocationstatusbycostcenter,Procurement & Inventory
+inlotserclass,Procurement & Inventory
+inpiclass,Procurement & Inventory
+inpiclassitem,Procurement & Inventory
+inpiclasslocation,Procurement & Inventory
+inpidetail,Procurement & Inventory
+inpiheader,Procurement & Inventory
+inplantype,Procurement & Inventory
+inpostclass,Procurement & Inventory
+inreceiptstatus,Procurement & Inventory
+inregister,Procurement & Inventory
+inrelatedinventory,Procurement & Inventory
+inreplenishmentclass,Procurement & Inventory
+inreplenishmentline,Procurement & Inventory
+inreplenishmentorder,Procurement & Inventory
+inreplenishmentpolicy,Procurement & Inventory
+inscansetup,Procurement & Inventory
+inscanusersetup,Procurement & Inventory
+insetup,Procurement & Inventory
+insite,Procurement & Inventory
+insitebuilding,Procurement & Inventory
+insitestatus,Procurement & Inventory
+insitestatusbycostcenter,Procurement & Inventory
+instance,Procurement & Inventory
+insubitem,Procurement & Inventory
+intote,Procurement & Inventory
+intran,Procurement & Inventory
+intrancost,Procurement & Inventory
+intransitline,Procurement & Inventory
+intransplit,Procurement & Inventory
+inturnovercalc,Procurement & Inventory
+inturnovercalcitem,Procurement & Inventory
+inunit,Procurement & Inventory
+inventoryitem,Sales
+inventoryitemcurysettings,Procurement & Inventory
+pmchangeorderclass,HR & Employee Management
+pminstance,HR & Employee Management
+pmreportrowsmultiplier,HR & Employee Management
+pmtimeactivity,HR & Employee Management
+poaccrualdetail,Procurement & Inventory
+poaccrualsplit,Procurement & Inventory
+poaccrualstatus,Procurement & Inventory
+poaddress,Procurement & Inventory
+pocontact,Procurement & Inventory
+polandedcostdetail,Procurement & Inventory
+polandedcostdoc,Procurement & Inventory
+polandedcostreceipt,Procurement & Inventory
+polandedcostreceiptline,Procurement & Inventory
+polandedcostsplit,Procurement & Inventory
+poline,Procurement & Inventory
+polinebillingrevision,Procurement & Inventory
+poorder,Procurement & Inventory
+poorderreceipt,Procurement & Inventory
+poreceipt,Procurement & Inventory
+poreceiptline,Procurement & Inventory
+poreceiptlinesplit,Procurement & Inventory
+poreceiveputawaysetup,Procurement & Inventory
+poreceiveputawayusersetup,Procurement & Inventory
+portalmap,Procurement & Inventory
+posetup,Procurement & Inventory
+povendorinventory,Procurement & Inventory
+rmcolumn,Reporting & Analytics
+rmcolumnheader,Reporting & Analytics
+rmcolumnset,Reporting & Analytics
+rmdatasource,Reporting & Analytics
+rmreport,Reporting & Analytics
+rmrow,Reporting & Analytics
+rmrowset,Reporting & Analytics
+rmstyle,Reporting & Analytics
+rmunit,Reporting & Analytics
+rmunitset,Reporting & Analytics
+rqbidding,Procurement & Inventory
+rqbiddingvendor,Procurement & Inventory
+rqrequest,Procurement & Inventory
+rqrequestclass,Procurement & Inventory
+rqrequestline,Procurement & Inventory
+rqrequisition,Procurement & Inventory
+rqrequisitioncontent,Procurement & Inventory
+rqrequisitionline,Procurement & Inventory
+rqrequisitionorder,Procurement & Inventory
+rqsetup,Procurement & Inventory
+rqsetupapproval,Procurement & Inventory
+smcalendarsettings,Process Management
+smemail,Process Management
+smgraphoauthtoken,Process Management
+smgraphpermission,Process Management
+smgraphsetup,Process Management
+smlicensecommercetran,Process Management
+smlicenseconstraints,Process Management
+smlicenseerptran,Process Management
+smlicenseerptrandetailsaction,Process Management
+smlicenseerptrandetailsdoc,Process Management
+smlicensestatistic,Process Management
+smlicenseviolations,Process Management
+smperformanceinfo,Process Management
+smperformanceinfosql,Process Management
+smperformanceinfosqltext,Process Management
+smperformanceinfostacktrace,Process Management
+smperformanceinfotraceevents,Process Management
+smperformanceinfotracemessages,Process Management
+smperformancesettings,Process Management
+smprinter,Process Management
+smprintjob,Process Management
+smprintjobparameter,Process Management
+smscanjob,Process Management
+smscanjobparameter,Process Management
+smscanner,Process Management
+smteamschannel,Process Management
+smteamsmember,Process Management
+smteamsmembermapping,Process Management
+smteamsnotification,Process Management
+smteamsteam,Process Management
+soaddress,Sales
+soadjust,Sales
+socontact,Sales
+sofreightdetail,Sales
+soinvoice,Sales
+soline,Sales
+solinesplit,Sales
+soorder,Sales
+soorderdiscountdetail,Sales
+soorderkvext,Sales
+soorderrisks,Sales
+soordershipment,Sales
+soordersite,Sales
+soordertype,Sales
+soordertypeoperation,Sales
+sopackagedetail,Sales
+sopackageinfo,Sales
+sopicker,Sales
+sopickerlistentry,Sales
+sopickertoshipmentlink,Sales
+sopickingjob,Sales
+sopickingworksheet,Sales
+sopickingworksheetline,Sales
+sopickingworksheetlinesplit,Sales
+sopickingworksheetshipment,Sales
+sopickpackshipsetup,Sales
+sopickpackshipusersetup,Sales
+soquickprocessparameters,Sales
+sosalespertran,Sales
+sosetup,Sales
+sosetupapproval,Sales
+soshipline,Sales
+soshiplinesplit,Sales
+soshiplinesplitpackage,Sales
+soshipment,Sales
+soshipmentkvext,Sales
+soshipmentprocessedbyuser,Sales
+sotax,Sales
+sotaxtran,Sales
+ssacumaticamappingfield,IT
+ssmapping,IT
+ssshipstationmappingfield,IT
+sydata,IT
+syhistory,IT
+syimportcondition,IT
+symapping,IT
+symappingcondition,IT
+symappingfield,IT
+synctimetag,IT
+syprovider,IT
+syproviderfield,IT
+syproviderobject,IT
+syproviderparameter,IT
+sysschema,IT
+systemcollation,IT
+systemcolor,IT
+systemevent,IT
+sysubstitution,IT
+sysubstitutionvalues,IT
+account,Finance & Accounting
+accountclass,Finance & Accounting
+actionexecution,Process Management
+actionexecutionmapping,Process Management
+acumatica_sales_2023_2025_table_1,Sales
+address,Application Logic & UI
+baccount,Finance & Accounting
+batch,Finance & Accounting
+branch,Finance & Accounting
+case297859applicationsforrerelease,Marketing
+case297859distinctvoided,Marketing
+case297859specificcreditmemosforrerelease,Billing & Payments
+case297859specificpaymentsforrerelease,Billing & Payments
+cloudtenant,IT
+cmsetup,Finance & Accounting
+commonsetup,Application Logic & UI
+company,Application Logic & UI
+complianceattribute,Process Management
+complianceattributetype,Process Management
+contact,Marketing
+contract,Process Management
+country,Application Logic & UI
+currency,Finance & Accounting
+currencyinfo,Finance & Accounting
+currencyinuse,Finance & Accounting
+currencylist,Finance & Accounting
+currencyrate,Finance & Accounting
+currencyratetype,Finance & Accounting
+curyaphistory,Finance & Accounting
+curyarhistory,Finance & Accounting
+custobject,Marketing
+customer,Marketing
+customerclass,Marketing
+customerpaymentmethod,Billing & Payments
+customerpaymentmethoddetail,Billing & Payments
+customerprocessingcenterid,Marketing
+custproject,Process Management
+custpublishidescripts,IT
+custsalespeople,Sales
+dashboard,Reporting & Analytics
+dashboardparameter,Reporting & Analytics
+dateinfo,Application Logic & UI
+dimension,Billing & Payments
+discountcustomer,Marketing
+discountitem,Billing & Payments
+discountsequence,Billing & Payments
+discountsequencedetail,Billing & Payments
+dispatchersettings,Process Management
+dispatcherslowlog,Process Management
+dispatcherstatistics,Process Management
+distributedcache,IT
+ebizconnectsetup,IT
+emailaccount,IT
+entityactiondescription,Process Management
+entityactionparameterdescription,Process Management
+entitydescription,Application Logic & UI
+entityendpoint,IT
+entityfielddescription,IT
+entitymapping,Application Logic & UI
+eulastatus,Process Management
+excludedvendordomain,Process Management
+external_tsa,Process Management
+externaltransaction,Finance & Accounting
+fadepreciationmethod,Finance & Accounting
+fadepreciationmethodlines,Finance & Accounting
+fatype,Finance & Accounting
+favoriteactionrecord,Process Management
+favoriterecord,Process Management
+featuresset,Application Logic & UI
+filterheader,Application Logic & UI
+filterheaderkvext,Application Logic & UI
+filterrow,Application Logic & UI
+finperiod,Finance & Accounting
+finperiodsetup,Finance & Accounting
+finyear,Finance & Accounting
+finyearsetup,Finance & Accounting
+fobpoint,Procurement & Inventory
+forecasting_asin_retail_mean_forecast_united_states,Reporting & Analytics
+forecasting_asin_retail_p_70_forecast_united_states,Reporting & Analytics
+forecasting_asin_retail_p_80_forecast_united_states,Reporting & Analytics
+forecasting_asin_retail_p_90_forecast_united_states,Reporting & Analytics
+gridpreferences,Application Logic & UI
+group_iii_2023_and_2024_sales_xlsx_2023,Sales
+group_iii_purchase_xlsx_g_3_p_order,Procurement & Inventory
+iigregistration,IT
+imagerecognitionmodel,Application Logic & UI
+imagerecognitionmodelfield,Application Logic & UI
+imagerecognitionmodelfieldmapping,Application Logic & UI
+imagerecognitionmodelmapping,Application Logic & UI
+imagerecognitionmodelscreenmapping,Application Logic & UI
+inventory_asin_sourcing_retail_united_states_todate_1_1_2025_4_6_2025,Procurement & Inventory
+inventory_asin_sourcing_retail_united_states_yearly_1_1_2023_12_31_2023,Procurement & Inventory
+inventory_asin_sourcing_retail_united_states_yearly_1_1_2024_12_31_2024,Procurement & Inventory
+ispsactionlog,Process Management
+ispsaddress,Process Management
+ispsbilltocontact,Process Management
+ispsconn,Process Management
+ispscred,Process Management
+ispscustcharge,Process Management
+ispscustgeneral,Process Management
+ispscustitem,Process Management
+ispscustomerextension,Process Management
+ispscustomersettings,Process Management
+ispscustshipto,Process Management
+ispscustshipvia,Process Management
+ispscustshipviadel,Process Management
+ispscustterms,Process Management
+ispserrors,Process Management
+ispsinbound945,Process Management
+ispsinbound945il,Process Management
+ispsinbound945ol,Process Management
+ispsinbound945pl,Process Management
+ispsinsiteextension,Process Management
+ispsinsitesettings,Process Management
+ispsinsiteshipvia,Process Management
+ispsinvoicelog,Process Management
+ispsorderlog,Process Management
+ispsoutbound940log,Process Management
+ispspolineextension,Process Management
+ispspoorderextension,Process Management
+ispsshipmenttypes,Process Management
+ispsshiptocontact,Process Management
+ispssocharge,Process Management
+ispssoline,Process Management
+ispssolineextension,Process Management
+ispssoorder,Process Management
+ispssoorderextension,Process Management
+ispssopackagedetailextension,Process Management
+ispssoshiplinesplitpackageextension,Process Management
+ispssoshipmentextension,Process Management
+ispstpcustomersettings,Process Management
+ispsuserprefextension,Process Management
+landedcostcode,Procurement & Inventory
+ledger,Finance & Accounting
+licensing,IT
+listentrypoint,Application Logic & UI
+locale,IT
+localeformat,IT
+localizationresource,Application Logic & UI
+localizationresourcebyscreen,Application Logic & UI
+localizationvalue,Application Logic & UI
+location,Procurement & Inventory
+logintrace,Reporting & Analytics
+macola_sales_2021_2022_table_1,Sales
+mlevent,Process Management
+mobileaccounttouserlink,Application Logic & UI
+mobilenotification,Application Logic & UI
+mobilepushnotificationregtoken,IT
+mobilesitemap,Application Logic & UI
+mobilesitemapworkspaceitems,Application Logic & UI
+mobilesitemapworkspaceitemsorder,Application Logic & UI
+mobilesitemapworkspaces,Application Logic & UI
+mobilesitemapworkspacesorder,Application Logic & UI
+mobilesitemapworkspacewidgets,Application Logic & UI
+mobilesitemapworkspacewidgetsorder,Application Logic & UI
+muiarea,Application Logic & UI
+muifavoritescreen,Application Logic & UI
+muifavoritetile,Application Logic & UI
+muifavoriteworkspace,Application Logic & UI
+muipinnedscreen,Application Logic & UI
+muiscreen,Application Logic & UI
+muiscreenorderheader,Application Logic & UI
+muisubcategory,Application Logic & UI
+muitile,Application Logic & UI
+muiuserpreferences,Marketing
+muiuserscreenrelevance,Application Logic & UI
+muiworkspace,Application Logic & UI
+multifactorpersistentcode,IT
+note,Marketing
+notedoc,Marketing
+notification,Marketing
+notificationrecipient,Marketing
+notificationsetup,Marketing
+notificationsetuprecipient,Marketing
+notificationsource,Marketing
+numbering,Application Logic & UI
+numberingkvext,Application Logic & UI
+numberingsequence,Application Logic & UI
+oauthapplication,IT
+oauthclient,IT
+oauthclientclaim,IT
+oauthclientredirecturi,IT
+oauthclientsecret,IT
+oauthpersistedgrant,IT
+oauthserverkey,IT
+oauthtoken,IT
+organization,Finance & Accounting
+organizationledgerlink,Finance & Accounting
+paymentmethod,Billing & Payments
+paymentmethodaccount,Billing & Payments
+paymentmethoddetail,Billing & Payments
+paymentmethoddetailkvext,Billing & Payments
+photologstatus,Application Logic & UI
+pivotfield,Reporting & Analytics
+pivotfieldpreferences,Reporting & Analytics
+pivottable,Reporting & Analytics
+pjsubmittaltype,Process Management
+preferencesemail,IT
+preferencesgeneral,IT
+preferencesglobal,IT
+preferencesidentityprovider,IT
+preferencessecurity,IT
+prtransactiondateexception,Process Management
+pushnotificationsfailedtosend,Marketing
+pushnotificationshook,Marketing
+pushnotificationssource,Marketing
+queuenotificationsettings,Marketing
+reasoncode,Process Management
+relateditemhistory,Reporting & Analytics
+reportsettings,Reporting & Analytics
+roles,Process Management
+rolesincache,Process Management
+rolesingraph,Process Management
+rolesinmember,Process Management
+rutrotsetup,IT
+rutrotworktype,IT
+sagranthistory,Reporting & Analytics
+sales_asin_sourcing_retail_united_states_todate_1_1_2025_4_6_2025,Sales
+sales_asin_sourcing_retail_united_states_yearly_1_1_2023_12_31_2023,Sales
+sales_asin_sourcing_retail_united_states_yearly_1_1_2024_12_31_2024,Sales
+salesperson,Sales
+schedule,Process Management
+searchindex,Application Logic & UI
+segment,Application Logic & UI
+segmentvalue,Application Logic & UI
+sfentitysetup,Application Logic & UI
+shipterms,Procurement & Inventory
+shiptermsdetail,Procurement & Inventory
+sitemap,Application Logic & UI
+spaceusagecalculationhistory,Reporting & Analytics
+state,Procurement & Inventory
+stock_iq_forecast_2024_2025_xlsx_sheet,Reporting & Analytics
+stock_iq_lost_sales_xlsx_sheet,Sales
+sub,Process Management
+t5018organizationsettings,IT
+tablesize,IT
+tax,Finance & Accounting
+taxbucket,Finance & Accounting
+taxbucketline,Finance & Accounting
+taxcategory,Finance & Accounting
+taxcategorydet,Finance & Accounting
+taxplugin,Finance & Accounting
+taxplugindetail,Finance & Accounting
+taxpluginmapping,Finance & Accounting
+taxreport,Finance & Accounting
+taxreportline,Finance & Accounting
+taxrev,Finance & Accounting
+taxtran,Finance & Accounting
+taxzone,Finance & Accounting
+taxzoneaddressmapping,Finance & Accounting
+taxzonedet,Finance & Accounting
+terms,Process Management
+themevariables,Application Logic & UI
+traffic_asin_united_states_todate_1_1_2025_4_6_2025,Reporting & Analytics
+traffic_asin_united_states_yearly_1_1_2023_12_31_2023,Reporting & Analytics
+traffic_asin_united_states_yearly_1_1_2024_12_31_2024,Reporting & Analytics
+translationhistory,Reporting & Analytics
+translationhistorydetails,Reporting & Analytics
+transldef,Application Logic & UI
+transldefdet,Application Logic & UI
+txsetup,Finance & Accounting
+unitofmeasure,Finance & Accounting
+uperrors,IT
+uphistory,Reporting & Analytics
+uphistorycomponents,Reporting & Analytics
+uploadallowedfiletypes,IT
+uploadfile,Application Logic & UI
+uploadfilerevision,Application Logic & UI
+upscripts,IT
+upsetup,IT
+upsnapshot,Process Management
+upsnapshothistory,Process Management
+uptrace,Process Management
+useridentity,IT
+userlocaleformat,IT
+userpreferences,Marketing
+userreport,Reporting & Analytics
+users,IT
+usersinroles,Process Management
+vendor,Procurement & Inventory
+vendorclass,Procurement & Inventory
+vendorpaymentmethoddetail,Billing & Payments
+version,IT
+visitedrecord,Marketing
+watchdog,IT
+widget,Application Logic & UI
+wikiaccessrights,Application Logic & UI
+wikiannouncement,Application Logic & UI
+wikiarticle,Application Logic & UI
+wikicss,Application Logic & UI
+wikidescriptor,Application Logic & UI
+wikidescriptorext,Application Logic & UI
+wikifileinpage,Application Logic & UI
+wikipage,Application Logic & UI
+wikipagelanguage,Application Logic & UI
+wikipagelink,Application Logic & UI
+wikireadlanguage,Application Logic & UI
+wikirevision,Application Logic & UI
+wikisitepage,Application Logic & UI
+wikitooltip,Application Logic & UI
+wikitooltiptab,Application Logic & UI
+wmsjob,Procurement & Inventory
